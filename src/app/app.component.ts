@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'hello-world';
+export class AppComponent {   //export the class. Class is ablueprint for JS object. Angular creates object, we need not create. This class is normal TS class, but to inform angular, should be treated a s a component
+
+
+
+  title = 'Hello World!';
 }
