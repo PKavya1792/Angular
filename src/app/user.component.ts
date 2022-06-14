@@ -10,6 +10,7 @@ template: `
 </div>
 <br>
 <div>
+  <button (click)="onUserInput($event)"> SIVA </button>
 <input type="text" [(ngModel)]="name2">,
 <div>
 <!--< // event in TS by calling a method of yopur component class. Use name by ON to make sure  -->
