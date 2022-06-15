@@ -12,12 +12,13 @@
 </thead>
 
 <tbody>
-<tr li *ngFor= "let p of indianStates; let i = index; let e = even; let o=odd" [ngClass] = "{evenitem:e, odditem:o}">
+<tr li *ngFor= "let p of indianStates; let i = index; trackBy:trackByFn let e = even; let o=odd let f = first; let l = last" [ngClass] = "{evenitem:e, odditem:o, firstitem:f, lastitem:l }">
 
-  <td> {{i+1}} {{p.state}} </td>
+  <td> {{i+1}}{{p.state}} </td>
   <td> {{p.capital}}  </td>
   <td> {{p.languageSpoken}} </td>
   <td> {{p.famousDish}}  </td>
+
 
   <!-- // Every iteration of array of Indian states -->
 </tr>
