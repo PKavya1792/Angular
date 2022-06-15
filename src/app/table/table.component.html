@@ -1,0 +1,26 @@
+<p> <b> Here is the table of Indian states !</b>  </p>
+
+<table class = "list">
+  <thead class = "thead-dark">
+
+<tr>
+<th> state </th>
+<th> capital </th>
+<th> languageSpoken </th>
+<th> famousDish </th>
+</tr>
+</thead>
+
+<tbody>
+<tr li *ngFor= "let p of indianStates; let i = index; let e = even; let o=odd" [ngClass] = "{evenitem:e, odditem:o}">
+
+  <td> {{i+1}} {{p.state}} </td>
+  <td> {{p.capital}}  </td>
+  <td> {{p.languageSpoken}} </td>
+  <td> {{p.famousDish}}  </td>
+
+  <!-- // Every iteration of array of Indian states -->
+</tr>
+<!-- // For loop- For every Indian state insid eof the array of IndianStates display this block if code. -->
+</tbody>
+</table>

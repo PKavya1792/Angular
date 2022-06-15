@@ -1,0 +1,14 @@
+.list{
+background-color: rgb(238, 238, 106);
+  color: rgb(38, 0, 255);
+  flex: auto;
+  align-content: center;
+}
+
+td{
+  text-align: center;
+}
+
+.evenitem{
+  background-color: aqua;
+}
