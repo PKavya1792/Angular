@@ -1,13 +1,13 @@
-<p> <b> Here is the table of Indian states !</b>  </p>
+<p> Here is the table of Indian states !</p>
 
 <table class = "list">
-  <thead class = "thead-dark">
+<thead class = "thead">
 
 <tr>
-<th> state </th>
-<th> capital </th>
-<th> languageSpoken </th>
-<th> famousDish </th>
+<th> State </th>
+<th> Capital </th>
+<th> LanguageSpoken </th>
+<th> FamousDish </th>
 </tr>
 </thead>
 
@@ -25,3 +25,23 @@
 <!-- // For loop- For every Indian state insid eof the array of IndianStates display this block if code. -->
 </tbody>
 </table>
+<div>
+<input type="text" [(ngModel)] = "num"/>
+<div [ngSwitch]="num">
+  <div *ngSwitchCase="1">one</div>
+  <div *ngSwitchCase="2">Two </div>
+  <div *ngSwitchCase="3">Three</div>
+  <div *ngSwitchCase="4"><img src="assets/images/JK.jpg"> </div>
+  <div *ngSwitchDefault>Enter 1 to View States, Enter 2 to View Capital, Enter 3 to View Languages spoken, Enter 4 to View Picture</div>
+</div>
+
+
+<div class="box">
+ Show <input type="checkbox" [(ngModel)]="showMe">
+</div>
+<p *ngIf="showMe">
+ </p>
+ <button class= " k "> SUBMIT </button>
+<p *ngIf = "!showMe">
+ShowMe is unchecked, Please check to proceed forward </p>
+

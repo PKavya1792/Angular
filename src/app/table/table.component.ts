@@ -17,7 +17,11 @@ IS4:IndianState=new IndianState('Jammu & kashmir','India','Kashmiri','Kashmiri P
 
 indianStates:IndianState[] = []
 
+
+num:number=0;
+showMe:Boolean=true;
 constructor() {}
+
 
   ngOnInit(): void {
     this.indianStates.push(this.IS1,this.IS2,this.IS3,this.IS4);

@@ -22,7 +22,7 @@ import {MatTableModule} from '@angular/material/table';
     NavbarComponent,
     DummyComponent,
     TableComponent,
-     // all new components have to bedeclared and imported
+     // all new components have to be declared and imported
   ],
   imports: [
     BrowserModule,

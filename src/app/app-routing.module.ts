@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
-{path:'South Burlington', component: DummyComponent },
-{path:'Williston', component: DummyComponent },
-{path:'Essex Junction', component: DummyComponent},
-{path:'Others', component: DummyComponent},
+{path:'JammuKashmir', component: DummyComponent }, //if the path is South Burlington, link the Dummy component
+{path:'Maharashtra', component: DummyComponent },
+{path:'AndhraPradesh', component: DummyComponent},
+{path:'Karnataka', component: DummyComponent},
 
 
 ];
